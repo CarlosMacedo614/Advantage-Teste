@@ -1,0 +1,71 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-10T13:21:19.862Z",
+        "line": 8,
+        "name": "Registro de usuario",
+        "description": "",
+        "id": "criar-conta;registro-de-usuario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3506472900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que eu esteja no formulario de abertura de conta \"http://advantageonlineshopping.com/#/ \\r\\n\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://advantageonlineshopping.com/#/ \\r\\n\"",
+                  "offset": 49
+                }
+              ],
+              "location": "registroSteps.RegistroSteps.que_eu_esteja_no_formulario_de_abertura_de_conta(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5704509600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "preencher os dados obrigatorios",
+            "match": {
+              "location": "registroSteps.RegistroSteps.preencher_os_dados_obrigatorios()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 559679600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "a conta sera gerada",
+            "match": {
+              "location": "registroSteps.RegistroSteps.a_conta_sera_gerada()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Registro"
+          }
+        ]
+      }
+    ],
+    "name": "Criar Conta",
+    "description": "eu como usuario quero criar minha conta para realizar compras",
+    "id": "criar-conta",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/OnlineShoppping.feature",
+    "tags": []
+  }
+]
